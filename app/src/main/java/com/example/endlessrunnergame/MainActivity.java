@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     private boolean soundMuted;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
