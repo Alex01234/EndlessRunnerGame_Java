@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 if(soundMuted){
                     playClickSound();
                     volume.setImageResource(R.drawable.ic_volume_off_black_24dp);
-                    mediaPlayer.stop();
+                    mediaPlayer.pause();
                 } else{
                     playClickSound();
                     volume.setImageResource(R.drawable.ic_volume_up_black_24dp);
@@ -132,4 +132,17 @@ public class MainActivity extends AppCompatActivity {
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION |
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
     } /**The method hideNavigationBar is used to used to hide navigation bar of the phone.*/
+
+    @Override
+    protected void onPause(){
+        mediaPlayer.pause();
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume(){
+        mediaPlayer.start();
+        super.onResume();
+    }
+
 }
