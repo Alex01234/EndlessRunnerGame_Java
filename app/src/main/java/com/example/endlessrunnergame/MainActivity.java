@@ -1,3 +1,5 @@
+//Author: Alexander Dolk
+
 package com.example.endlessrunnergame;
 
 import android.content.Context;
@@ -15,8 +17,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-/** This program belongs to assignment Gesällprov.
- * The class MainActivity works as the menu of the game, which is displayed when the game is launched.*/
+/**The class MainActivity works as the menu of the game, which is displayed when the game is launched.*/
 
 public class MainActivity extends AppCompatActivity {
 
@@ -145,5 +146,4 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
     }
 
-    
 }

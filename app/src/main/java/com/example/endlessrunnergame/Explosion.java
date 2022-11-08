@@ -1,3 +1,5 @@
+//Author: Alexander Dolk
+
 package com.example.endlessrunnergame;
 
 import android.content.res.Resources;
