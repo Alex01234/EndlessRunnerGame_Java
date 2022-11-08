@@ -1,3 +1,7 @@
 # EndlessRunnerGame_Java
 
-<video src="https://github.com/Alex01234/EndlessRunnerGame_Java/blob/master/endless_runner_demonstration.mp4"></video>
+
+
+
+https://user-images.githubusercontent.com/39235916/200654271-8ea4dc2e-556f-4917-8129-c2d2a0f065a6.mp4
+
